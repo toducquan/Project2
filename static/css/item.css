@@ -1,0 +1,64 @@
+
+.item{
+    float: left;
+    box-shadow: 0 0 5px #ccc;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    margin: 35px;
+    position: relative;
+}
+.itemImg{
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    height: 300px;
+}
+.itemName{
+    position: absolute;
+    bottom: 35px;
+    left: 25px;
+    font-size: 25px;
+    color: rgb(126, 64, 64);
+    font-weight: bold;
+}
+.itemPrice{
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    font-size: 15px;
+    color: rgb(223, 45, 45);
+    font-weight: bold;
+}
+form{
+    right: 205px;
+    margin-left: 75%;
+    margin-bottom: -50px;
+    margin-top: 10px;
+}
+form label{
+    border: 1px solid gray;
+    padding: 2px 9px;
+    color: rgb(12, 11, 11)
+}
+form input{
+    width: 200px;
+}
+
+.buy{
+    position: absolute;
+    border: 1px solid rgb(228, 128, 34);
+    background-color: rgb(249, 252, 249);
+    color: rgb(228, 128, 34);
+    bottom: 5px;
+    font-size: 20px;
+    right: 5px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15%;
+}
+.buy:hover{
+    color: honeydew;
+    background-color: rgb(228, 128, 34);
+}
+

@@ -1,0 +1,68 @@
+.detail{
+    display: flex;
+    margin-top: 100px;
+    width: auto;
+    height: auto;
+    box-shadow: 0 0 5px #ccc;
+    padding: 15px;
+}
+.image img{
+    width: 300px;
+    height: 300px;
+}
+.content{
+    margin-left: 30px;
+}
+.itemName1{
+    font-size: 25px;
+    color: rgb(12, 11, 11);
+    font-weight: bold;
+}
+.itemPrice1{
+    font-size: 20px;
+    color: rgb(223, 45, 45);
+    font-weight: bold;
+}
+.khuyenmai{
+    font-size: 20px;
+    color: rgb(12, 11, 11);
+}
+.content ul{
+    padding-right: 50px;
+}
+button{
+    margin-top: 50px;
+    border: none;
+    color: honeydew;
+    background-color: rgb(228, 128, 34);
+    font-size: 20px;
+    right: 5px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15%;
+}
+.delete{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.delete button{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: -50px;
+    right: 0;
+}
+.delete p{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.content{
+    min-width: 400px;
+}
+.adjusted button{
+    width: 32px;
+    height: 32px; 
+    margin: 50px 6px 0px;  
+}
